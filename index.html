@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -70,11 +74,11 @@
         <section class="container">
             <div class="row my-5 text-center justify-content-center">
                 <div class="col-2">
-                    <img src="./assets/img/Frailejon 3.png" alt="frailejon" class="img-fluid w100">
+                    <img src="./assets/img/Frailejon 3.png" alt="frailejon" class="img-fluid w-100 wow animate__animated animate animate__backInLeft animate__slower">
                 </div>
                 <div class="col-6">
                     <h4>REGISTRATE CON FRAILEJON</h4>
-                    <form>
+                    <form class="wow animate__animated animate animate__backInRight animate__slower">
                         <div class="input-group mb-3">
                             <span class="input-group-text"><i class="bi bi-envelope-at-fill"></i></span>
                             <input type="email" class="form-control" placeholder="correo@correo.com">
@@ -104,5 +108,9 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="./src/controllers/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
   </body>
 </html>
