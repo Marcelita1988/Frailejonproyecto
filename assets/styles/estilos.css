@@ -11,3 +11,27 @@ a{
 .fondomenu3{
     background-color:lightseagreen ;
 }
+
+.fuente{
+    font-family: 'Playpen Sans', cursive;
+    font-size:50px;
+    color:blueviolet;
+    font-weight:bolder;
+}
+
+.fuente1{
+    font-family: 'Ballet', cursive;
+    
+}
+
+.fuente2{
+  
+    font-family: 'Gluten', cursive;
+   
+}
+
+.fuente3{
+    
+    font-family: 'Honk', system-ui;
+  
+}
